@@ -1,0 +1,22 @@
+### acessando via GET
+GET  http://localhost:3001/alunos
+###
+POST  http://localhost:3001/alunos
+Content-Type: application/json
+
+{
+    "userName": "kit",
+    "userEmail": "adri"
+}
+###
+GET http://localhost:3001/alunos
+###
+DELETE http://localhost:3001/alunos/5f63ec97c98caf2e2469cb4d
+###
+PATCH http://localhost:3001/alunos/5f63ec59c98caf2e2469cb4c
+Content-Type: application/json
+
+{
+    "userName": "Dandara"
+    
+}
